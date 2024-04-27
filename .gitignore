@@ -1,1 +1,41 @@
-.vs/
+# Arquivos e diretórios do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.docstates
+*.userprefs
+
+# Arquivos de compilação e de saída
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+bld/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Arquivos de configuração do Visual Studio Code
+.vscode/
+
+# Arquivos de configuração do ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Arquivos de configuração do .NET
+*.csproj.user
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+*.pubxml
+*.pubxml.user
+*.snk
+
+
+
