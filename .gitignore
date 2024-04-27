@@ -1,4 +1,5 @@
 # Arquivos e diretórios do Visual Studio
+.vs/
 *.suo
 *.user
 *.userosscache
