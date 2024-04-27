@@ -1,3 +1,0 @@
-Inserindo dados no arquivo de teste
-Inserindo mais uma linha no arquivo de teste
-Dados vindo da branch Lucas
