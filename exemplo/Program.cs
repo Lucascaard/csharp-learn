@@ -9,11 +9,11 @@ namespace main
             Pessoa lucas = new()
             {
                 Nome = "lucas",
-                Idade = 27
+                Idade = 27,
+                Teste = 1
             };
 
             lucas.Apresentar();
-
         }
     }
 }
