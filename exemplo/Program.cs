@@ -14,9 +14,25 @@ namespace main
 
             DateTime dateTime = DateTime.Now.AddDays(10);
 
+            int estoque = 10;
+            int venda = 5;
+            bool temEmEstoque = estoque >= venda;
+
+            if(temEmEstoque)  
+            {
+                Console.WriteLine("Pode Vender");
+            }
+            else
+            {
+                Console.WriteLine("Não tem quantidade suficiente");
+            }
+
+
             //lucas.Apresentar(dateTime);
 
             // Tamanhos dos tipos primitivos em bytes
+
+            /*
             Console.WriteLine("Tamanhos dos tipos primitivos em bytes:");
             Console.WriteLine("----------------------------------------");
             Console.WriteLine("double: " + sizeof(double) + " bytes \t (Mínimo: " + double.MinValue + ", Máximo: " + double.MaxValue + ")");
@@ -33,7 +49,7 @@ namespace main
             Console.WriteLine("sbyte: " + sizeof(sbyte) + " byte \t (Mínimo: " + sbyte.MinValue + ", Máximo: " + sbyte.MaxValue + ")");
             Console.WriteLine("bool: " + sizeof(bool) + " byte \t (Mínimo: False, Máximo: True)");
             // teste
-
+            */
         }
     }
 }
