@@ -16,17 +16,24 @@ namespace main
 
             //lucas.Apresentar(dateTime);
 
-            double _double = double.MaxValue;
-            long _long = long.MaxValue;
-            float _float = float.MaxValue;
-            int inteiro = int.MaxValue;
-            ulong _ulong = ulong.MaxValue;
-            uint _uint = uint.MaxValue;
-            byte _byte = byte.MaxValue;
+            // Tamanhos dos tipos primitivos em bytes
+            Console.WriteLine("Tamanhos dos tipos primitivos em bytes:");
+            Console.WriteLine("----------------------------------------");
+            Console.WriteLine("double: " + sizeof(double) + " bytes \t (Mínimo: " + double.MinValue + ", Máximo: " + double.MaxValue + ")");
+            Console.WriteLine("long: " + sizeof(long) + " bytes \t (Mínimo: " + long.MinValue + ", Máximo: " + long.MaxValue + ")");
+            Console.WriteLine("decimal: " + sizeof(decimal) + " bytes \t (Mínimo: " + decimal.MinValue + ", Máximo: " + decimal.MaxValue + ")");
+            Console.WriteLine("float: " + sizeof(float) + " bytes \t (Mínimo: " + float.MinValue + ", Máximo: " + float.MaxValue + ")");
+            Console.WriteLine("ulong: " + sizeof(ulong) + " bytes \t (Mínimo: 0, Máximo: " + ulong.MaxValue + ")");
+            Console.WriteLine("int: " + sizeof(int) + " bytes \t (Mínimo: " + int.MinValue + ", Máximo: " + int.MaxValue + ")");
+            Console.WriteLine("uint: " + sizeof(uint) + " bytes \t (Mínimo: 0, Máximo: " + uint.MaxValue + ")");
+            Console.WriteLine("char: " + sizeof(char) + " bytes \t (Mínimo: '\\0', Máximo: '\\uffff')");
+            Console.WriteLine("ushort: " + sizeof(ushort) + " bytes \t (Mínimo: 0, Máximo: " + ushort.MaxValue + ")");
+            Console.WriteLine("short: " + sizeof(short) + " bytes \t (Mínimo: " + short.MinValue + ", Máximo: " + short.MaxValue + ")");
+            Console.WriteLine("byte: " + sizeof(byte) + " byte \t (Mínimo: 0, Máximo: " + byte.MaxValue + ")");
+            Console.WriteLine("sbyte: " + sizeof(sbyte) + " byte \t (Mínimo: " + sbyte.MinValue + ", Máximo: " + sbyte.MaxValue + ")");
+            Console.WriteLine("bool: " + sizeof(bool) + " byte \t (Mínimo: False, Máximo: True)");
+            // teste
 
-            long longo = Convert.ToInt32(inteiro);
-            Console.WriteLine($"Max int: {inteiro} \nMax Double: {_double} \nMax float: {_float} ");
-            Console.WriteLine($"Max long: {_long} \nMax byte: {_byte} \nMax uint: {_uint} \nMax ulong: {_ulong}");
         }
     }
 }
