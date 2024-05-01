@@ -49,6 +49,7 @@ namespace Main
     {
         public static void Main(string[] args)
         {
+            /* Solução salario
             Console.WriteLine("Insira o salario bruto: ");
             if (!double.TryParse(Console.ReadLine(), out double salarioBruto))
             {
@@ -82,6 +83,23 @@ namespace Main
 
             double salarioLiquido = salarioBruto - aliquota + beneficio;
             Console.WriteLine("Salario liquido é: " + salarioLiquido);
+            */
+
+            // Lista para armazenar os itens
+            List<string> itens = [];
+
+            for (int i = 1; i <= 3; i++)
+            {
+                itens.Add(Console.ReadLine());
+
+            }
+
+            // Exibe a lista de itens
+            Console.WriteLine("Lista de itens:");
+            foreach (string item in itens)
+            {
+                Console.WriteLine($"- {item}");
+            }
         }
     }
 }

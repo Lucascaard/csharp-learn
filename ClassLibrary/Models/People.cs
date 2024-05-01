@@ -2,22 +2,36 @@ namespace ClassLibrary.Models
 {
     public class People
     {
-        public string? Nome { get; set; }
-        public byte Idade { get; set; }
-        public float Altura { get; set; }
-        public string? Cidade { get; set; }
+        private string _nome;
+        public string Nome
+        {
+            get => _nome.ToUpper();
+            set => _nome = string.IsNullOrEmpty(value) ? throw new ArgumentException("O nome não pode ser vazio") : value;
+        }
 
-        public People(string? nome, byte idade, float altura, string? cidade)
+        private int _idade;
+        public int Idade
+        {
+            get => _idade;
+            set => _idade = int.IsNegative(value) ? throw new ArgumentException("Idade não pode ser negativa!") : value;
+        }
+        public People(string nome, int idade)
         {
             Nome = nome;
             Idade = idade;
-            Altura = altura;
-            Cidade = cidade;
+
+
+
+        }
+
+        public People()
+        {
+
         }
 
         public void Apresentar()
         {
-            Console.WriteLine($"Olá, meu nome é {Nome}, eu tenho {Altura} de altura e {Idade} anos! \tMoro atualmente em {Cidade}");
+            Console.WriteLine($"Olá, meu nome é {Nome} e eu tenho {Idade} anos!");
         }
     }
 }
