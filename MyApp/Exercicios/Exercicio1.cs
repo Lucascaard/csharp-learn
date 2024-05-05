@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace MyApp.Exercicios
 {
     public class Exercicio1
@@ -37,7 +32,6 @@ namespace MyApp.Exercicios
             }
             salarioLiquido = salarioBruto - aliquota + beneficio;
             Console.WriteLine("Salario liquido é: " + salarioLiquido);
-        
         }
     }
 }

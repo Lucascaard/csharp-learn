@@ -11,6 +11,8 @@ namespace MyApp.Exercicios
         public void Func1()
         {
             // EXE2 - Solução salario
+            Console.WriteLine("Solução com Dictionary");
+            Console.WriteLine();
             Console.WriteLine("Insira o salario bruto: ");
             if (!double.TryParse(Console.ReadLine(), out double salarioBruto))
             {

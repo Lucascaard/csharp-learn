@@ -1,6 +1,4 @@
 using System.Globalization;
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
-
 
 namespace MyApp.Exercicios
 {
@@ -8,6 +6,7 @@ namespace MyApp.Exercicios
     {
         public void Func1()
         {
+            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
             Console.WriteLine("Concatenação de números!");
             string num1 = "10";
             string num2 = "20";
