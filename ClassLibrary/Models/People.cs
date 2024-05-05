@@ -2,6 +2,10 @@ namespace ClassLibrary.Models
 {
     public class People
     {
+        public People()
+        {
+
+        }
         private string _nome;
         public string Nome
         {
@@ -19,14 +23,6 @@ namespace ClassLibrary.Models
         {
             Nome = nome;
             Idade = idade;
-
-
-
-        }
-
-        public People()
-        {
-
         }
 
         public void Apresentar()

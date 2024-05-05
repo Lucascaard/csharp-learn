@@ -9,7 +9,6 @@ namespace MyApp.Exercicios
     {
         public void Func1()
         {
-        
          // EXE 1 
             Console.WriteLine("Insira o salario bruto: ");
             string input = Console.ReadLine();
