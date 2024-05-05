@@ -7,7 +7,9 @@ namespace MyApp.Exercicios
 {
     public class Exercicio1
     {
-        /*
+        public void Func1()
+        {
+        
          // EXE 1 
             Console.WriteLine("Insira o salario bruto: ");
             string input = Console.ReadLine();
@@ -36,6 +38,7 @@ namespace MyApp.Exercicios
             }
             salarioLiquido = salarioBruto - aliquota + beneficio;
             Console.WriteLine("Salario liquido é: " + salarioLiquido);
-        */
+        
+        }
     }
 }
