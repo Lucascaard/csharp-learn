@@ -12,4 +12,5 @@ Exercicio5 exe5 = new();
 // exe2.Func1();
 // exe3.Func1();
 // exe4.Func1();
-exe5.Func2();
+// exe5.Func3();
+exe5.Metodo1();
