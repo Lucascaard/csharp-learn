@@ -6,6 +6,16 @@ namespace ClassLibrary.Models
         {
 
         }
+
+        public void Deconstruct(out string nome, out int idade)
+        {
+            nome = Nome;
+            idade = Idade;
+        }
+        /*Serve pra isso:
+            People p1 = new("Lucas Cardoso", 27);
+            (string nome, int idade) = p1;
+        */
         private string _nome;
         public string Nome
         {

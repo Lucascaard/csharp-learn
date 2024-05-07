@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MyApp.Exercicios
 {
@@ -23,6 +19,10 @@ namespace MyApp.Exercicios
         /*exemplo do uso no Program
         MetodoComTupla mtdo = new();
 
+        var (sucesso, linhasArquivo, _ ) = mtdo.LerArquivo("Arquivos/leitura.txt");
+        /**
+        *! È utilizado o underline para descartar o valor que esta vindo na tupla
+        
         var (sucesso, linhasArquivo, qtdeLinhas ) = mtdo.LerArquivo("Arquivos/leitura.txt");
         Console.WriteLine(sucesso);
         foreach(var linhas in linhasArquivo)
