@@ -1,11 +1,11 @@
 using ClassLibrary.Models;
 using MyApp.Exercicios;
+using Newtonsoft.Json;
 
+Venda v1 = new(1,"Cardernos",29.99M);
 
-People p1 = new("Lucas Cardoso", 27);
-IFTernario ife = new();
+string serializacao = JsonConvert.SerializeObject(v1, Formatting.Indented);
 
-Console.WriteLine(ife.Func1(32));
+File.WriteAllText("Arquivos/vendas.json", serializacao);
+Console.WriteLine(serializacao);
 
-
-(string nome, int idade) = p1;
