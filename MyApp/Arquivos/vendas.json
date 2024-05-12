@@ -1,19 +1,19 @@
 [
   {
     "Id": 1,
-    "Produto": "Cardernos",
+    "Nome_Produto": "Cardernos",
     "Preco": 29.99,
     "DataVenda": "2024-05-08T15:15:07.5236464-03:00"
   },
   {
     "Id": 2,
-    "Produto": "Canetas",
+    "Nome_Produto": "Canetas",
     "Preco": 9.99,
     "DataVenda": "2024-05-08T15:15:07.5236464-03:00"
   },
   {
     "Id": 3,
-    "Produto": "Marca Texto",
+    "Nome_Produto": "Marca Texto",
     "Preco": 7.99,
     "DataVenda": "2024-05-08T15:15:07.5236464-03:00"
   }
