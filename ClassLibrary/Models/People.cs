@@ -40,4 +40,4 @@ namespace ClassLibrary.Models
             Console.WriteLine($"Olá, meu nome é {Nome} e eu tenho {Idade} anos!");
         }
     }
-}
+} 
